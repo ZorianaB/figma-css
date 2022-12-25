@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400&family=IBM+Plex+Sans:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="container-fluid h-100">
+      <div class="row h-100">
+        <div class="left-sidebar col-2">
+          <div class="logo text-center">
+            <span class="fw-bold text-primary">Accounting</span>
+            <span class="logo-name fw-lighter">Toolkit_</span>
+          </div>
+
+          <div class="left-navigation row">
+            <div class="col">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Big Concept</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Big Concept</a>
+                </li>
+                <li class="nav-item active">
+                  <a href="#" data-bs-toggle="collapse" data-bs-target="#collapse-one" class="nav-link">
+                    Big Concept <img class="arrow-right-icon" src="./images/arrow-right.svg">
+                  </a>
+                  <ul class="collapse nav" id="collapse-one">
+                    <li class="w-100">
+                      <a href="#" class="nav-link">Secondary Item</a>
+                    </li>
+                    <li class="w-100">
+                      <a href="#" class="nav-link active">Secondary Item</a>
+                      <a href="#" class="nav-link">Secondary Item</a>
+                    </li>
+                  </ul>
+                </li>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Big Concept</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Big Concept</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" data-bs-toggle="collapse" data-bs-target="#collapse-two" class="nav-link">
+                    Big Concept <img class="arrow-right-icon" src="./images/arrow-right.svg">
+                  </a>
+                  <ul class="collapse nav" id="collapse-two">
+                    <li class="w-100">
+                      <a href="#" class="nav-link">Secondary Item</a>
+                    </li>
+                    <li class="w-100">
+                      <a href="#" class="nav-link">Secondary Item</a>
+                      <a href="#" class="nav-link">Secondary Item</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Big Concept</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="main-section col">
+          <div class="row">
+            <div class="main-header row d-flex justify-content-between align-items-center">
+              <div class="col col-xl-5">
+                <div class="search-section input-group">
+                  <input type="text" class="form-control search-input rounded-0" placeholder="Search documentation ...">
+                  <button class="btn btn-outline-secondary search-button rounded-0" type="button" id="button-addon2">
+                    <img src="./images/search-icon.svg">
+                  </button>
+                </div>
+              </div>
+              <div class="col d-flex justify-content-end">
+                <nav class="header-nav navbar navbar-expand-lg">
+                  <div class="container-fluid p-0">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-white" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Docs</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Tutorial</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Account
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Manage Account</a></li>
+                            <li><a class="dropdown-item" href="#">Payment History</a></li>
+                            <li><a class="dropdown-item" href="#">Payments</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                          <button type="button" class="btn btn-secondary text-uppercase rounded-0">Login</button>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+            <div class="content-section container-fluid">
+              <div class="title-section row">
+                <h3>Here’s the heading of this Doc</h3>
+                <h4>This could be a subheading, if needed.</h4>
+              </div>
+
+              <div class="row-section row">
+                <div class="left-section col-12 col-xl-9">
+                  <h5>The Accounting Equation</h5>
+                  <p>
+                    The Accounting Equation underlies all dual entry accounting. It is the magic formula that results in a complete, auditable, and error free system of accounting. The basic accounting equation is:
+                  </p>
+                  <h6>Assets = Liabilities + Equity</h6>
+                  <p>
+                    An easy way to think about the accounting equation is “what assets do you have” and “how did you pay for them.” There are two ways we can generally pay for things. We can pay for them by borrowing money or by putting in equity or retained earnings if the company has earned profits. For example, you start a company and deposit $10,000 cash in the bank. Your assets, ie cash, increases by the amount deposited into your company bank account. Your equity increases by the same amount keeping the accounting equation in balance.
+                  </p>
+                  <h6>Assets ($10,000) = Liabilities ($0.00) + Equity ($10,000)</h6>
+                  <p>
+                    To fund the purchase of products to sell, you take a loan to buy inventory of $10,000. The accounting equation would now reflect $20,000 in assets and $10,000 in liabilities reflecting our new loan.
+                  </p>
+                  <h6>Assets ($20,000) = Liabilities ($10,000) + Equity ($10,000)</h6>
+                  <p>
+                    Most companies will have separate asset accounts to reflect the different types of assets, which helps in determining the liquidity of the company, ie the ability for the company to meet its current obligations. The two basic groups of assets are short term and long term. Short term assets are cash and other assets that can be quickly converted to cash like inventory and accounts receivable. Long term assets would be things like land, building and equipment. We will talk more about the balance sheets for each asset type in a bit.
+                  </p>
+                  <p>
+                    Referring back to our example, let’s say a customer comes in and purchases a widget for $1,200. Your bank account balance increases by $1,200 and your inventory balances decreases by $1,000. Since you made $200 above the cost of you paid for the widget, you now have a profit for the year, generally referred to as “net income.” Annual net income is part of an equity account referred to as “retained earnings,” which represents the profit a company makes. We will discuss retained earnings in greater detail in a moment. But for now, the accounting equation looks like this.
+                  </p>
+                </div>
+                <div class="col-12 col-xl-3 d-flex justify-content-end p-0 align-items-end">
+                  <button class="next-button btn btn-primary rounded-0 text-uppercase" type="submit">
+                    View Next Article <img class="arrow-right-icon" src="./images/arrow-right.svg">
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

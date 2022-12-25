@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400&family=IBM+Plex+Sans:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="container-fluid h-100">
+      <div class="row h-100">
+        <div class="left-sidebar col-2">
+          <div class="logo text-center">
+            <span class="fw-bold text-primary">Accounting</span>
+            <span class="logo-name fw-lighter">Toolkit_</span>
+          </div>
+
+          <div class="left-navigation row">
+            <div class="col">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Big Concept</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Big Concept</a>
+                </li>
+                <li class="nav-item active">
+                  <a href="#" data-bs-toggle="collapse" data-bs-target="#collapse-one" class="nav-link">
+                    Big Concept <img class="arrow-right-icon" src="./images/arrow-right.svg">
+                  </a>
+                  <ul class="collapse nav" id="collapse-one">
+                    <li class="w-100">
+                      <a href="#" class="nav-link">Secondary Item</a>
+                    </li>
+                    <li class="w-100">
+                      <a href="#" class="nav-link active">Secondary Item</a>
+                      <a href="#" class="nav-link">Secondary Item</a>
+                    </li>
+                  </ul>
+                </li>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Big Concept</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Big Concept</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" data-bs-toggle="collapse" data-bs-target="#collapse-two" class="nav-link">
+                    Big Concept <img class="arrow-right-icon" src="./images/arrow-right.svg">
+                  </a>
+                  <ul class="collapse nav" id="collapse-two">
+                    <li class="w-100">
+                      <a href="#" class="nav-link">Secondary Item</a>
+                    </li>
+                    <li class="w-100">
+                      <a href="#" class="nav-link">Secondary Item</a>
+                      <a href="#" class="nav-link">Secondary Item</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Big Concept</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="main-section col">
+          <div class="row">
+            <div class="main-header row d-flex justify-content-between align-items-center">
+              <div class="col col-xl-5">
+                <div class="search-section input-group">
+                  <input type="text" class="form-control search-input rounded-0" placeholder="Search documentation ...">
+                  <button class="btn btn-outline-secondary search-button rounded-0" type="button" id="button-addon2">
+                    <img src="./images/search-icon.svg">
+                  </button>
+                </div>
+              </div>
+              <div class="col d-flex justify-content-end">
+                <nav class="header-nav navbar navbar-expand-lg">
+                  <div class="container-fluid p-0">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-white" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#">Docs</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Tutorial</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Account
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Manage Account</a></li>
+                            <li><a class="dropdown-item" href="#">Payment History</a></li>
+                            <li><a class="dropdown-item" href="#">Payments</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                          <button type="button" class="btn btn-secondary text-uppercase rounded-0">Login</button>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+            <div class="content-section container-fluid">
+              <div class="title-section row">
+                <h3>Here’s the heading of this Doc</h3>
+                <h4>This could be a subheading, if needed.</h4>
+              </div>
+
+              <div class="row-section row">
+                <div class="left-section col-12 col-lg-6">
+                  <h5>Section Title</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur. Habitant ac sed tellus lectus imperdiet commodo. Tellus vulputate erat morbi et condimentum et malesuada posuere quam. Scelerisque faucibus posuere nisl purus diam. Vulputate dui eros sem nec donec. Tincidunt lacus varius diam turpis vivamus maecenas congue mollis. A quis leo quis nibh molestie. Convallis tristique lectus pharetra amet in tristique mauris cras eget. Et leo accumsan habitant ultricies elit. Diam magna sagittis nunc consectetur posuere volutpat maecenas et facilisis. Lobortis turpis etiam sagittis donec massa neque. Vehicula mauris volutpat purus dis arcu non. Id quis lorem nulla aliquam turpis sit.
+                  </p>
+                </div>
+                <div class="right-section col-12 col-lg-6">
+                  <div class="code-section" id="code-section"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
